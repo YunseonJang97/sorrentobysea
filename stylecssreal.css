@@ -1,0 +1,209 @@
+*{
+    font-family: Helvetica, Calibri;
+    margin: 0em;
+    padding: 0em;
+    font-size: 100%;
+    border-style: none;
+    list-style-type: none;
+}
+
+#wrapper{
+    width: 1280px;
+    height: 832px;
+    margin: auto;
+}
+
+.container-top{
+    width: 1280px;
+    height: 98px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 459px;
+    height: 98px;
+}
+
+nav{
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px auto auto auto;
+}
+
+nav a{
+    color: #87423C;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main{
+    width: 1280px;
+}
+
+.main-above{
+    background-image: url(image/picturesque\ Mornington\ Peninsula.jpg);
+    background-size: 1280px 464px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column1{
+    width: 800px;
+    height: 464px;
+}
+
+.column2{
+    width: 580px;
+    height: 464px;
+}
+
+.booking-container{
+    display: flex;
+    width: 480px;
+    height: 80px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: #87423C;
+    border-radius: 15px;
+    background-color: rgba(192,192,192, 0.5)
+}
+
+.booking-container-inner{
+    margin: auto;
+}
+h1{
+    font-size: 60px;
+    color: white;
+    font-family: 'Italiana';
+    font-style: initial;
+    margin-top: 30px;
+}
+
+.calender{
+    width: 190px;
+    height: 36px;
+    margin: 15px auto 15px auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.people{
+    width: 70px;
+    height: 36px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.search{
+    width: 112px;
+    height: 30px;
+    color: white;
+    background-color: #87423C;
+    margin-left: 170px;
+    border-radius: 5px;
+}
+
+h2{
+    font-family: 'Italiana';
+    font-size: 30px;
+    color: #87423C;
+}
+
+.main-below{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 1280px;
+    height: 210px;
+    padding-top: 20px;
+}
+
+.column1-bot{
+    width: 50%;
+}
+
+.column2-bot{
+    width: 48%;
+}
+
+.testimonial{
+    background-color: #CBE3E9;
+    border-style: solid;
+    border-color: #87423C;
+    height: 135px;
+    border-radius: 15px;
+}
+
+.testimonial-inner{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.apartment_home_p{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.apartment_home_o{
+    width: 300px;
+    height: 135px;
+    border-style: solid;
+    border-color: #87423C;
+    border-radius: 15px;
+}
+
+.apartment_home_t{
+    width: 300px;
+    height: 135px;
+    border-style: solid;
+    border-color: #87423C;
+    border-radius: 15px;
+}
+
+.apartment_home_p ul{
+    margin-left: 3px;
+}
+
+.photo{
+    border-style: solid;
+    border-color: #87423C;
+    margin: 3px 3px auto 3px;
+    border-radius: 10px;
+}
+
+footer{
+    width: 1280px;
+    height: 68px;
+    display: flex;
+    background-color: #D9D9D9;
+}
+
+.footer-o{
+    margin-left: 5px;
+    font-size: 10px;
+    color: black;
+    width: 20%;
+    height: 68px;
+    padding-top: 5px;
+}
+
+.footer-t{
+    margin: 25px 10px auto auto;
+    width: 70%;
+    height: 68px;
+}
+
+.footer-t ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-t a{
+    text-decoration: none;
+}
